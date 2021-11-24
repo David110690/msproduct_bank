@@ -1,6 +1,6 @@
-package com.nttdata.product.service;
+package NNTDATA.msproduct_bank.service;
 
-import com.nttdata.product.entity.Product;
+import NNTDATA.msproduct_bank.entity.Product;
 import reactor.core.publisher.Mono;
 
 public interface IProductService {

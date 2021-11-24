@@ -1,4 +1,4 @@
-package com.nttdata.product.entity;
+package NNTDATA.msproduct_bank.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,7 +14,6 @@ public class Product {
     @Id
     private String id;
     private String productName;
-
     private ProductType productType;
     private ProductRule productRule;
 }

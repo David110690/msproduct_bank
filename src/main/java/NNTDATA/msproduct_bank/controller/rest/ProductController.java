@@ -1,8 +1,7 @@
-package com.nttdata.product.controller.rest;
+package NNTDATA.msproduct_bank.controller.rest;
 
-import com.nttdata.product.entity.Product;
-import com.nttdata.product.entity.ProductRule;
-import com.nttdata.product.repository.IProductReposiroty;
+import NNTDATA.msproduct_bank.entity.Product;
+import NNTDATA.msproduct_bank.repository.IProductReposiroty;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
@@ -12,15 +11,15 @@ import reactor.core.publisher.Mono;
 @RequiredArgsConstructor
 public class ProductController {
 
-    private final IProductReposiroty iProductReposiroty;
+    private final IProductReposiroty iProductRepository;
 
     @GetMapping("/{id}")
     public Mono<Product> findById(@PathVariable String id){
-        return iProductReposiroty.findById(id);
+        return iProductRepository.findById(id);
     }
 
     @PostMapping
     public Mono<Product> save(@RequestBody Product product){
-        return iProductReposiroty.save(product);
+        return iProductRepository.save(product);
     }
 }

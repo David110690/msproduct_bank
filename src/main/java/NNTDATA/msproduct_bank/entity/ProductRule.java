@@ -1,4 +1,4 @@
-package com.nttdata.product.entity;
+package NNTDATA.msproduct_bank.entity;
 
 import lombok.Builder;
 import lombok.Data;
