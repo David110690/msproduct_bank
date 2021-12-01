@@ -14,4 +14,5 @@ public class ProductRule {
     private boolean movements;
     private Integer quantityMaximumMovementsMonthly;
     private Double maximumLimitCredit;
+    private boolean balance;
 }

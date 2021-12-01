@@ -14,6 +14,7 @@ public class Product {
     @Id
     private String id;
     private String productName;
+    private String currency;
     private ProductType productType;
     private ProductRule productRule;
 }
