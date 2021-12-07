@@ -1,4 +1,4 @@
-package NNTDATA.msproduct_bank.entity;
+package NNTDATA.msproduct_bank.documents;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

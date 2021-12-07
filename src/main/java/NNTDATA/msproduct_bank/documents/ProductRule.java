@@ -1,4 +1,4 @@
-package NNTDATA.msproduct_bank.entity;
+package NNTDATA.msproduct_bank.documents;
 
 import lombok.Builder;
 import lombok.Data;
@@ -10,9 +10,10 @@ import java.util.List;
 
 public class ProductRule {
     private List<String> customerOwner;
-    private boolean commission;
-    private boolean movements;
+    private boolean commissionMaintenance;
+    private boolean maximumLimitMonthlyMovements;
     private Integer quantityMaximumMovementsMonthly;
-    private Double maximumLimitCredit;
+    private Integer maximumLimitCreditPerson;
+    private Integer maximumLimitCreditEnterprise;
     private boolean balance;
 }
